@@ -118,7 +118,11 @@ todo empezó</h3>
 
     <input type="text" name="NOMBRE" placeholder="Nombre" required />
     <input type="text" name="APELLIDO" placeholder="Apellido" required />
-
+<select name="EDAD" required>
+    <option value="" disabled selected>¿Sos adulto o niño?</option>
+    <option value="Adulto">Adulto</option>
+    <option value="Menor">Niño (hasta 12 años)</option>
+</select>
     <select name="DIETA" required>
         <option value="" disabled selected>¿Tenés restricciones alimenticias?</option>
         <option value="Nada">Nada / Como de todo</option>
