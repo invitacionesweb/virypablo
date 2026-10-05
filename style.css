@@ -78,6 +78,7 @@ header img {
 header h2 {
     font-size: var(--font-sizel);
     padding: 10px 0;
+    color: black;
     margin: 0;
     font-family:var(--font-principal);
     animation-name: texto;
@@ -307,18 +308,19 @@ audio::-webkit-media-controls-current-time-display {
 }
 .quote h3 {
     color: var(--color-principal);
-     font-size: 3em;
+    font-size: 3em;
     font-weight: 100;
     text-align: center;
-    padding: auto;
-    line-height: 1; /* espacio normal */
+    line-height: 1;
     margin: auto;
+    text-shadow: 0 2px 8px rgba(0, 0, 0, 0.60);
 }
 
 .quote2 {
     width: 100%;
-    height: 60vh;
-    background-image:url(./newimages/c.png) ;
+    height: 40vh;
+    background-color: #bcc076 ;
+    border-bottom: 2px solid var(--color-principal);
     background-position: center;
     background-size: cover;
     display: flex;
